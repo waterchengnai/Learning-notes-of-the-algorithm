@@ -12,7 +12,7 @@
 //		int rm = rand() % (high - low + 1) + low;
 //		//这里用随机的rm作为主元,是防止n^2的最差情况
 //		swap(arr[rm], arr[high]); 
-//		while(high>j)
+//		while(high>j)	//4.22 其实这里可以写成for循环,因为j无论哪种情况都要j++
 //		{
 //			if (arr[high] > arr[j])
 //			{
